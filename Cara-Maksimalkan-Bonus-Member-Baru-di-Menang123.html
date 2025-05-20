@@ -1375,10 +1375,12 @@
 
 <body>
     <div class="logo-container">
+        <a id="link_satu" class="logo">
             <amp-img alt="Menang123,  Agen Slot Online, Agen Bola, Live Casino,  slot gacor"
                 layout="responsive" height="102" width="336"
                 src="https://imagephotoku.io/images/2025/03/25/logo-menang1231.png"
                 noloading></amp-img>
+        </a>
         <div class="header-right">
             <span class="register-section">
                 <a id="link_header_register" target="_blank" rel="nofollow noreferrer"
@@ -1526,6 +1528,7 @@
         const link5 = document.getElementById('link_footer_daftar');
         const link6 = document.getElementById('link_footer_whatsapp');
         const link7 = document.getElementById('link_footer_lala');
+        const link8 = document.getElementById('link_satu');
 
         // Come from ads
         if (queryString.length > 0) {
@@ -1536,6 +1539,7 @@
             link5.href = domainName + queryString;
             link6.href = domainName + queryString;
             link7.href = domainName + queryString;
+            link8.href = domainName + queryString;
             document.cookie = `aff_click_id=${affClickId}; path=/; max-age=2592000`; // 30 days;
 
         }
@@ -1548,6 +1552,7 @@
             link5.href = domainName + referral;
             link6.href = domainName + referral;
             link7.href = domainName + referral;
+            link8.href = domainName + referral;
         }
     </script>
 </body>
